@@ -66,7 +66,7 @@ def init_db():
         (1003, 2, "Web hosting — March",      "$12.00"),
         (1004, 2, "Design consultation",      "$85.00"),
         (1005, 3, "Web hosting — March",      "$12.00"),
-        (1006, 4, "Server infrastructure — Q1", "FLAG{1d0r_m3ans_1_trust_ur_1d}"),
+        (1006, 4, "Server infrastructure — Q1", "Securinets{1d0r_m3ans_1_trust_ur_1d}"),
     ]
     c.executemany("INSERT INTO invoices (id, user_id, item, amount) VALUES (?, ?, ?, ?)", invoices)
 
